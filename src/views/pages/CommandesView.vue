@@ -50,8 +50,10 @@
 import { UilFilter } from '@iconscout/vue-unicons'
 import CommandesItems from '@/components/tablesItems/CommandesItems.vue'
 import { useCommandesStore } from '@/store'
+import { ref } from 'vue-demi'
 
 const useCommandes = useCommandesStore()
+
 </script>
 
 <style>

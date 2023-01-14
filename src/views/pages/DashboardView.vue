@@ -2,8 +2,8 @@
   <div class="w-full h-full grid grid-cols-4 grid-rows-4 gap-4 overflow-hidden">
 
 
-    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap-4">
-      <span class="text-xl font-black text-slate-500 capitalize">ventes</span>
+    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap-2">
+      <span class="text-md font-black text-slate-500 capitalize">ventes</span>
       <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 grid grid-cols-3 gap-6">
         <div class="w-full h-full flex-none">
           <VentesStats/>
@@ -12,8 +12,8 @@
     </div>
     </div>
 
-    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap-4">
-      <span class="text-xl font-black text-slate-500 capitalize">créances</span>
+    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap-2">
+      <span class="text-md font-black text-slate-500 capitalize">créances</span>
       <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 grid grid-cols-3 gap-6">
         <div class="w-full h-full flex-none">
           <CreanceStats/>
@@ -22,28 +22,28 @@
     </div>
     </div>
 
-    <div class="w-full h-full flex flex-col row-span-2 col-span-1 gap-4">
-      <span class="text-xl font-black text-slate-500 capitalize">Top Commandes</span>
+    <div class="w-full h-full flex flex-col row-span-2 col-span-1 gap-2">
+      <span class="text-md font-black text-slate-500 capitalize">Top Commandes</span>
       <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 gap-6 flex items-center justify-center">
         <ChartThree/>
     </div>
     </div>
 
-    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap-4">
-      <span class="text-xl font-black text-slate-500 capitalize">commandes</span>
-      <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 grid grid-cols-3 gap-6">
-        <div class="w-full h-full flex-none">
+    <div class="w-full h-full flex flex-col row-span-2 col-span-2 gap2-2">
+      <span class="text-md font-black text-slate-500 capitalize">commandes</span>
+      <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 grid grid-cols-5 gap-6">
+        <div class="col-span-2 w-full h-full flex-none">
           <CommandesStats/>
         </div>
-        <div class="col-span-2 flex items-center justify-center">
+        <div class="col-span-3 flex items-center justify-center">
           <ChartFour/>
         </div>
         
     </div>
     </div>
 
-    <div class="w-full h-full flex flex-col row-span-1 col-span-1 gap-4">
-      <span class="text-xl font-black text-slate-500 capitalize">Reclamations Et Intervention</span>
+    <div class="w-full h-full flex flex-col row-span-1 col-span-1 gap-2">
+      <span class="text-md font-black text-slate-500 capitalize">Reclamations Et Intervention</span>
       <div class="w-full grow bg-base-100 rounded-2xl border border-slate-200 p-4 gap-6">
         <div class="w-full h-full flex-none">
           <ReclamationStats/>

@@ -1,6 +1,6 @@
 <template>
   <Pie :data="data" :options="options"
-  style="height:100%; width:50%"
+  style="height:50%; width:50%"
    />
 </template>
 
@@ -8,9 +8,10 @@
 
 import { Pie } from 'vue-chartjs'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+import { reactive } from 'vue-demi'
 
 ChartJS.register(ArcElement, Tooltip, Legend)
-import { reactive } from 'vue-demi'
+
 
 const data = reactive(
     {

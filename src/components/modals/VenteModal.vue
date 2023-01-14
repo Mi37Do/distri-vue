@@ -1,5 +1,5 @@
 <template>
-  <input type="checkbox" id="BCModal" class="modal-toggle" />
+  <input type="checkbox" id="VenteModal" class="modal-toggle" />
 <div class="modal bg-slate-900/60">
 
   <div class="modal-box w-[1200px] flex flex-col gap-4 h-[700px] max-h-[700px] max-w-[1900px]">
@@ -29,8 +29,8 @@
             </div>
     
     <div class="modal-action">
-      <label for="BCModal" class="btn rounded-xl capitalize btn-primary text-white">editer</label>
-      <label for="BCModal" class="btn btn-ghost hover:bg-slate-100 border border-slate-300 hover:border-primary rounded-xl capitalize hover:text-primary">annuler</label>
+      <label for="VenteModal" class="btn rounded-xl capitalize btn-primary text-white">editer</label>
+      <label for="VenteModal" class="btn btn-ghost hover:bg-slate-100 border border-slate-300 hover:border-primary rounded-xl capitalize hover:text-primary">annuler</label>
     </div>
   </div>
 </div>

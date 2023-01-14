@@ -3,10 +3,14 @@
     <SideBar/>
     <AddCommandes/>
     <AddReclamation/>
+    
 
     <CommandesModal/>
     <BLModal/>
     <ReclamationModal/>
+    <VenteModal/>
+
+    <AddProduct/>
 
     <CommandesFilters/>
     <BLFilters/>
@@ -32,6 +36,8 @@ import BLFilters from '@/components/modals/BLFilters.vue'
 import AddReclamation from '@/components/modals/AddReclamation.vue'
 import RCLMFilters from '@/components/modals/RCLMFilters.vue'
 import FactFilters from '@/components/modals/FactFilters.vue'
+import AddProduct from '@/components/modals/AddProduct.vue'
+import VenteModal from '@/components/modals/VenteModal'
 </script>
 
 <style>
